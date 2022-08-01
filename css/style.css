@@ -1,0 +1,258 @@
+@import url("reset.css");
+
+body
+{
+	background: #111 url("../images/bg.png") repeat;
+	color: #555;
+	font-family: 'Droid Sans', Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 30px 0;
+}
+
+a { color: #7BA428; text-decoration: none; }
+a:hover { color: #222; text-decoration: none; }
+
+#container
+{
+	margin: 0 auto;
+	width: 900px;
+	padding: 20px;
+	background: #FFF;
+	
+	-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;
+	-moz-box-shadow: 0 0 8px #000; -webkit-box-shadow: 0 0 8px #000; box-shadow: 0 0 8px #000;
+}
+
+	#container #headercont
+	{
+		width: 900px;
+		height: 60px;
+		border-bottom: 5px solid #9C3;
+	}
+
+		#container #headercont #logocont
+		{
+			float: left;
+			width: 400px;
+			font-family: "Francois One", Arial, Helvetica, sans-serif;
+		}
+		
+			#container #headercont #logocont h1 a
+			{
+				color: #607F1F;
+				font-size: 32px;
+				letter-spacing: -1px;
+				text-decoration: none;
+				line-height: 50px;
+				font-weight: normal;
+			}
+			
+				#container #headercont #logocont h1 a:hover
+				{
+					color: #222;
+				}
+			
+		#container #headercont #menucont
+		{
+			float: left;
+			width: 500px;
+			padding: 5px 0 0 0;
+		}
+		
+			#container #headercont #menucont ul
+			{
+				float: right;
+				height: 40px;
+			}
+			
+			#container #headercont #menucont ul li
+			{
+				float: left;
+				display: block;
+			}
+			
+			#container #headercont #menucont ul li a
+			{
+				float: left;
+				display: block;
+				color: #607F1F;
+				background: #D0DFB3;
+				padding: 0 25px;
+				line-height: 40px;
+				font-size: 14px;
+				text-decoration: none;
+				text-transform: uppercase;
+				
+				font-family: "Francois One", Arial, Helvetica, sans-serif;
+			}
+			
+			#container #headercont #menucont ul ul li a
+			{ 
+				float: none; 
+				width: 160px;
+				padding: 10px 20px;
+				border: 0;
+				line-height: 14px;
+				font-weight: normal;
+			}
+	
+			#container #headercont #menucont ul li a:hover, #container #headercont #menucont ul li.sfHover a, #container #headercont #menucont ul ul a
+			{
+				color: #FFF;
+				background: #607F1F;
+			}
+			
+			#container #headercont #menucont ul li li a:hover, #container #headercont #menucont ul li.sfHover li a:hover
+			{
+				color: #FFF;
+				background: #516B19;
+			}
+			
+			/*** Start SuckerFish Styles ***/
+			
+				.sf-menu, .sf-menu * { margin: 0; padding: 0; list-style:	none; }
+				.sf-menu { line-height:	1.0; }
+				.sf-menu ul { position: absolute; top: -999em; width: 200px; margin-top: 0; padding-top: 0; }
+				.sf-menu ul li { width:	100%; }
+				.sf-menu li:hover { visibility: inherit; }
+				.sf-menu li { float: left; position: relative; }
+				.sf-menu a { display: block; position: relative; }
+				.sf-menu li:hover ul, .sf-menu li.sfHover ul { left: 0; top: 40px; z-index: 99; }
+				ul.sf-menu li:hover li ul, ul.sf-menu li.sfHover li ul { top: -999em; }
+				ul.sf-menu li li:hover ul, ul.sf-menu li li.sfHover ul { left: 200px; top: 0; }
+				ul.sf-menu li li:hover li ul, ul.sf-menu li li.sfHover li ul { top: -999em; }
+				ul.sf-menu li li li:hover ul, ul.sf-menu li li li.sfHover ul { left: 10em; top: 0; }		
+			
+			/** End SuckerFish Styles **/
+
+	#container #maincont
+	{
+		width: 900px;
+		line-height: 22px;
+		margin: 15px 0 0 0;
+		background: url("../images/bg-maincont.png") repeat-y;
+	}
+	
+			#maincont p { margin: 0 0 15px 0; }
+			#maincont h1, #maincont h2, #maincont h3, #maincont h4, #maincont h5 { margin: 0 0 10px 0; font-weight: 400; letter-spacing: -1px; color: #7BA428; font-family: "Francois One", Arial, Helvetica, sans-serif; }
+				#maincont #mainright h1, #maincont #mainright h2, #maincont #mainright h3, #maincont #mainright h4, #maincont #mainright h5 { color: #FFF; }
+			#maincont h1 { font-size: 26px; }
+			#maincont h2 { font-size: 24px; }
+			#maincont h3 { font-size: 24px; }
+			#maincont h4 { font-size: 22px; }
+			#maincont h5 { font-size: 22px; }
+			#maincont ul { margin: 0 0 15px 35px; list-style-type: square; }
+			#maincont ul li { padding: 0 0 0 2px; }
+			#maincont ol { margin: 0 0 15px 35px; list-style-type: decimal; }
+			#maincont ol li { padding: 0 0 0 2px; }
+			#maincont blockquote { background: #EEE; border-left: 3px solid #9C3; padding: 15px; margin: 0 0 15px 0; font-style: italic; line-height: 18px; }
+	
+		#container #maincont #mainleft
+		{
+			float: left;
+			width: 640px;
+			padding: 0px 20px 30px 0;
+		}
+		
+			#container #maincont #mainleft #headergallery
+			{
+				float: left;
+				width: 640px;
+				height: 200px;
+				margin: 0 0 15px 0;
+			}
+			
+			/*** Fading Gallery Styles **/
+			
+				#container #maincont #mainleft #headergallery #slideshow
+				{
+					position: relative;
+					width: 640px;
+					height: 200px;
+				}
+				
+				#container #maincont #mainleft #headergallery #slideshow img
+				{
+					position:absolute;
+					top:0;
+					left:0;
+					z-index:8;
+					opacity:0.0;
+				}
+				
+				#container #maincont #mainleft #headergallery #slideshow img.active
+				{
+					z-index:10;
+					opacity:1.0;
+				}
+				
+				#container #maincont #mainleft #headergallery #slideshow img.last-active
+				{
+					z-index:9;
+				}
+			
+			/** End Fading Gallery Styles **/
+			
+		#container #maincont #mainright
+		{
+			float: left;
+			width: 200px;
+			padding: 30px 20px;
+			color: #5E7E1F;
+			line-height: 18px;
+		}
+		
+			#maincont #mainright ul.sidemenu
+			{
+				float: left;
+				width: 200px;
+				margin: 0 0 15px 0;
+				list-style-type: none;
+			}
+			
+			#maincont #mainright ul.sidemenu li
+			{
+				display: block;
+			}
+			
+			#maincont #mainright ul.sidemenu li a
+			{
+				float: left;
+				width: 180px;
+				padding: 8px 10px;
+				margin: 0 0 5px 0;
+				background: #7BA428;
+				color: #FFF;
+				font-weight: normal;
+				text-decoration: none;
+				font-family: "Francois One", Arial, Helvetica, sans-serif;
+				font-size: 13px;
+				
+				-webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;
+			}
+			
+			#maincont #mainright ul.sidemenu li a:hover
+			{
+				color: #FFF;
+				background: #60801F;
+			}
+		
+	#footercont
+	{
+		margin: 0 auto;
+		width: 900px;
+		padding: 20px 0 15px 0;
+		font-size: 11px;
+		color: #666;
+		text-align: right;
+	}
+	
+		#footercont p
+		{
+			margin: 0 0 5px 0;
+		}
+		
+		#footercont a:hover
+		{
+			color: #FFF;
+		}

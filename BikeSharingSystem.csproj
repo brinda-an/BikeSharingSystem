@@ -1,0 +1,383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A393B081-43D3-45E9-8B1E-B233AEC05698}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BikeSharingSystem</RootNamespace>
+    <AssemblyName>BikeSharingSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Emails">
+      <HintPath>C:\Documents and Settings\torus\Desktop\childAbusement full\4 ChildAbusement Updated\ChildAbusement\bin\Emails.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\BikeImages\33.jpg" />
+    <Content Include="Admin\BikeImages\banner_431.jpg" />
+    <Content Include="Admin\BikeImages\download.jpg" />
+    <Content Include="Admin\BikeImages\download11.jpg" />
+    <Content Include="Admin\BikeImages\images1.jpg" />
+    <Content Include="Admin\BikeImages\images11.jpg" />
+    <Content Include="Admin\BikeImages\images2.jpg" />
+    <Content Include="Admin\BikeImages\images5.jpg" />
+    <Content Include="Admin\BikeImages\images6.jpg" />
+    <Content Include="Admin\BikeImages\img7.jpg" />
+    <Content Include="Admin\BikeImages\mv_corse_motorcycle_bike_sports_74176_300x168.jpg" />
+    <Content Include="Admin\BikeImages\pulsar-200ns.jpg" />
+    <Content Include="Admin\BikeImages\royal-enfield-classic-350.jpg" />
+    <Content Include="Admin\BikeImages\Royalenfield.jpg" />
+    <Content Include="Admin\BikeImages\Vikranth.jpg" />
+    <Content Include="Admin\_frmManageBikes.aspx" />
+    <Content Include="Admin\_frmMngStationIncharge.aspx" />
+    <Content Include="Admin\_frmStationRegistration.aspx" />
+    <Content Include="Admin\_frmAdminHome.aspx" />
+    <Content Include="Admin\_frmCities.aspx" />
+    <Content Include="Admin\_frmViewCustomers.aspx" />
+    <Content Include="Admin\_frmViewFeedbaks.aspx" />
+    <Content Include="css\reset.css" />
+    <Content Include="css\style.css" />
+    <Content Include="Customers\image\Allu-Arjun.jpg" />
+    <Content Include="Customers\image\Maheshbabu.jpg" />
+    <Content Include="Customers\_frmBrowseBike.aspx" />
+    <Content Include="Customers\_frmBrowseBikes.aspx" />
+    <Content Include="Customers\_frmCustChangePassword.aspx" />
+    <Content Include="Customers\_frmCustomerHome.aspx" />
+    <Content Include="Customers\_frmCustomerProfile.aspx" />
+    <Content Include="Customers\_frmPostFeedback.aspx" />
+    <Content Include="Customers\_frmViewBookingDetails.aspx" />
+    <Content Include="images\addImg.jpg" />
+    <Content Include="images\bg-maincont.png" />
+    <Content Include="images\bg.png" />
+    <Content Include="images\gallery-1.jpg" />
+    <Content Include="images\gallery-2.jpg" />
+    <Content Include="images\img7.jpg" />
+    <Content Include="images\imgserver %282%29.jpg" />
+    <Content Include="images\imgserver %283%29.jpg" />
+    <Content Include="images\imgserver %284%29.jpg" />
+    <Content Include="images\imgserver %285%29.jpg" />
+    <Content Include="images\imgserver.jpg" />
+    <Content Include="images\rupe.jpg" />
+    <Content Include="js\scripts.js" />
+    <Content Include="js\superfish.js" />
+    <Content Include="LoginPage\Login.aspx" />
+    <Content Include="LoginPage\_frmAboutUs.aspx" />
+    <Content Include="LoginPage\_frmContact.aspx" />
+    <Content Include="LoginPage\_frmCustomerRegister.aspx" />
+    <Content Include="LoginPage\_frmForgotPassword.aspx" />
+    <Content Include="LoginPage\_frmServices.aspx" />
+    <Content Include="StationInchargers\_frmAvailableBikesInStation.aspx" />
+    <Content Include="StationInchargers\_frmStationBikes.aspx" />
+    <Content Include="StationInchargers\_frmStnChangePassword.aspx" />
+    <Content Include="StationInchargers\_frmStnInchargeHome.aspx" />
+    <Content Include="StationInchargers\_frmManageBikes.aspx" />
+    <Content Include="StationInchargers\_frmStnProfile.aspx" />
+    <Content Include="StationInchargers\_frmViewBookingDetails.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\_frmManageBikes.aspx.cs">
+      <DependentUpon>_frmManageBikes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\_frmManageBikes.aspx.designer.cs">
+      <DependentUpon>_frmManageBikes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\_frmMngStationIncharge.aspx.cs">
+      <DependentUpon>_frmMngStationIncharge.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\_frmMngStationIncharge.aspx.designer.cs">
+      <DependentUpon>_frmMngStationIncharge.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\_frmStationRegistration.aspx.cs">
+      <DependentUpon>_frmStationRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\_frmStationRegistration.aspx.designer.cs">
+      <DependentUpon>_frmStationRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\_frmAdminHome.aspx.cs">
+      <DependentUpon>_frmAdminHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\_frmAdminHome.aspx.designer.cs">
+      <DependentUpon>_frmAdminHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\_frmCities.aspx.cs">
+      <DependentUpon>_frmCities.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\_frmCities.aspx.designer.cs">
+      <DependentUpon>_frmCities.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\_frmViewCustomers.aspx.cs">
+      <DependentUpon>_frmViewCustomers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\_frmViewCustomers.aspx.designer.cs">
+      <DependentUpon>_frmViewCustomers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\_frmViewFeedbaks.aspx.cs">
+      <DependentUpon>_frmViewFeedbaks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\_frmViewFeedbaks.aspx.designer.cs">
+      <DependentUpon>_frmViewFeedbaks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BLL.cs" />
+    <Compile Include="Customers\Customer.Master.cs">
+      <DependentUpon>Customer.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customers\Customer.Master.designer.cs">
+      <DependentUpon>Customer.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Customers\_frmBrowseBike.aspx.cs">
+      <DependentUpon>_frmBrowseBike.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customers\_frmBrowseBike.aspx.designer.cs">
+      <DependentUpon>_frmBrowseBike.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Customers\_frmBrowseBikes.aspx.cs">
+      <DependentUpon>_frmBrowseBikes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customers\_frmBrowseBikes.aspx.designer.cs">
+      <DependentUpon>_frmBrowseBikes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Customers\_frmCustChangePassword.aspx.cs">
+      <DependentUpon>_frmCustChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customers\_frmCustChangePassword.aspx.designer.cs">
+      <DependentUpon>_frmCustChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Customers\_frmCustomerHome.aspx.cs">
+      <DependentUpon>_frmCustomerHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customers\_frmCustomerHome.aspx.designer.cs">
+      <DependentUpon>_frmCustomerHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Customers\_frmCustomerProfile.aspx.cs">
+      <DependentUpon>_frmCustomerProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customers\_frmCustomerProfile.aspx.designer.cs">
+      <DependentUpon>_frmCustomerProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Customers\_frmPostFeedback.aspx.cs">
+      <DependentUpon>_frmPostFeedback.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customers\_frmPostFeedback.aspx.designer.cs">
+      <DependentUpon>_frmPostFeedback.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Customers\_frmViewBookingDetails.aspx.cs">
+      <DependentUpon>_frmViewBookingDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Customers\_frmViewBookingDetails.aspx.designer.cs">
+      <DependentUpon>_frmViewBookingDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginPage\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage\Login.Master.cs">
+      <DependentUpon>Login.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginPage\Login.Master.designer.cs">
+      <DependentUpon>Login.Master</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage\_frmAboutUs.aspx.cs">
+      <DependentUpon>_frmAboutUs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginPage\_frmAboutUs.aspx.designer.cs">
+      <DependentUpon>_frmAboutUs.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage\_frmContact.aspx.cs">
+      <DependentUpon>_frmContact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginPage\_frmContact.aspx.designer.cs">
+      <DependentUpon>_frmContact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage\_frmCustomerRegister.aspx.cs">
+      <DependentUpon>_frmCustomerRegister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginPage\_frmCustomerRegister.aspx.designer.cs">
+      <DependentUpon>_frmCustomerRegister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage\_frmForgotPassword.aspx.cs">
+      <DependentUpon>_frmForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginPage\_frmForgotPassword.aspx.designer.cs">
+      <DependentUpon>_frmForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoginPage\_frmServices.aspx.cs">
+      <DependentUpon>_frmServices.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginPage\_frmServices.aspx.designer.cs">
+      <DependentUpon>_frmServices.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StationInchargers\StnIncharge.Master.cs">
+      <DependentUpon>StnIncharge.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StationInchargers\StnIncharge.Master.designer.cs">
+      <DependentUpon>StnIncharge.Master</DependentUpon>
+    </Compile>
+    <Compile Include="StationInchargers\_frmAvailableBikesInStation.aspx.cs">
+      <DependentUpon>_frmAvailableBikesInStation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StationInchargers\_frmAvailableBikesInStation.aspx.designer.cs">
+      <DependentUpon>_frmAvailableBikesInStation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StationInchargers\_frmStationBikes.aspx.cs">
+      <DependentUpon>_frmStationBikes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StationInchargers\_frmStationBikes.aspx.designer.cs">
+      <DependentUpon>_frmStationBikes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StationInchargers\_frmStnChangePassword.aspx.cs">
+      <DependentUpon>_frmStnChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StationInchargers\_frmStnChangePassword.aspx.designer.cs">
+      <DependentUpon>_frmStnChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StationInchargers\_frmStnInchargeHome.aspx.cs">
+      <DependentUpon>_frmStnInchargeHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StationInchargers\_frmStnInchargeHome.aspx.designer.cs">
+      <DependentUpon>_frmStnInchargeHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StationInchargers\_frmManageBikes.aspx.cs">
+      <DependentUpon>_frmManageBikes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StationInchargers\_frmManageBikes.aspx.designer.cs">
+      <DependentUpon>_frmManageBikes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StationInchargers\_frmStnProfile.aspx.cs">
+      <DependentUpon>_frmStnProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StationInchargers\_frmStnProfile.aspx.designer.cs">
+      <DependentUpon>_frmStnProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="StationInchargers\_frmViewBookingDetails.aspx.cs">
+      <DependentUpon>_frmViewBookingDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="StationInchargers\_frmViewBookingDetails.aspx.designer.cs">
+      <DependentUpon>_frmViewBookingDetails.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\Admin.Master" />
+    <Content Include="Customers\Customer.Master" />
+    <None Include="images\.DS_Store" />
+    <Content Include="LoginPage\Login.Master" />
+    <Content Include="StationInchargers\StnIncharge.Master" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2607</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
